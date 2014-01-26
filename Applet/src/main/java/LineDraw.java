@@ -41,7 +41,7 @@ public class LineDraw extends Applet
         bDrawing = false;
     }
     public boolean mouseDown(Event evt,
-                             int x, int y)
+                             int z, int y)
     {
         if(evt.clickCount > 1)
         {
